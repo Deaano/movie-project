@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    justify-content: center;
+    background-color:purple;
+    padding: 8px 40px;
+    box-shadow: 0 1px 5px black;
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    letter-spacing: 1.5px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+@media (max-width:800px){
+    .header{
+        font-size: 6.9vw;
+        padding-bottom: 10px;
+        letter-spacing: 1.2px;
+    }
+}

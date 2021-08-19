@@ -1,0 +1,91 @@
+img{
+    width: 300px;
+}
+
+.movie-card{
+    cursor: pointer;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #282c34;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+.movie-card:hover{
+    background-color: rgb(245, 118, 245);
+    color: black;
+}
+
+@media (max-width: 800px){
+    .movie-card{
+       margin-left: 15px;
+       width: 185px;
+    }
+}
+
+@media (max-width: 460px){
+    .movie-card{
+       margin-left: 5px;
+       width: 40vw;
+    }
+}
+
+
+
+.movie-image{
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.title{
+    margin: auto;
+    font-size: 2.9vw;
+    text-align: center;
+    letter-spacing: 1.2px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.type-release{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    margin-top: auto;
+    margin-left: 0;
+    padding: 2;
+}
+
+@media(min-width:800px){
+    .title{
+        font-size: 1vw;
+    }
+
+    .movie-type{
+        font-size: 1vw;
+        margin-left: 8px;
+    }
+
+    .release{
+        font-size: 1vw;
+    }
+}
+
+@media(max-width:460px){
+    .title{
+        font-size: 3.2vw;
+    }
+
+    .movie-type{
+        font-size: 3vw;
+        margin-left: 8px;
+    }
+
+    .release{
+        font-size: 2.8vw;
+    }
+}

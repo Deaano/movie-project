@@ -1,0 +1,32 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.tabs{
+   width: 80vw;
+   margin-right: 10vw;
+   margin-left: 10vw;
+   margin-bottom: 15px;
+   
+}
+
+
+
+
+@media (min-width:800px){
+
+.tabs{
+    margin-bottom: 15px;
+    width: 100vw;
+    margin-left: 33.5vw;
+
+}
+
+.search-container{
+    width: 70vw;
+    margin-left: 20vw;
+    margin-top: 20px;
+}
+}
